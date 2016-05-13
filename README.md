@@ -1,6 +1,6 @@
 # Happy Birthday
 
-Template for wishing your HTML geeky friends with some HTML soup.
+Template for wishing your HTML geeky friends with some HTML soup. See a demo at https://originalasm.github.io/happy-birthday-tango/demo
 
 ## How to wish
 1. Edit `src/index.html` to your likening. You will most certainly like to change the default name
