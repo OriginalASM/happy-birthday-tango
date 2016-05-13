@@ -3,7 +3,7 @@
 Template for wishing your HTML geeky friends with some HTML soup.
 
 ## How to wish
-1. Edit `src/index.html` to ypur likening. You will most certainly like to change the default name
+1. Edit `src/index.html` to your likening. You will most certainly like to change the default name
 2. Edit the `styleshet.less`
 3. Customize and go crazy
 4. Run
