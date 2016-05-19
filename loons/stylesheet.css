@@ -15,28 +15,34 @@ body {
 }
 
 .animator {
-    position: relative;
-    width: 200%;
+    position: fixed;
+    display: flex;
     height: 100%;
     overflow: hidden;
+    z-index: 1;
+}
+
+@keyframes loop {
+    0% {
+        transform: translateX(0);
+    }
     
+    100% {
+        transform: translateX(-100%);
+    }
 }
 
 .animator img {
     display: inline-block;
     margin: 0;
     height: 100%;
-    width: auto;
-    float: left;
+    animation: loop 10s linear infinite;
 }
 
 #loons {
-    background: url('loons.svg');
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
+    position: fixed;
     width: 100%;
+    z-index: 10;
+    padding-top: 10%;
+    max-height: 60%;
 }
